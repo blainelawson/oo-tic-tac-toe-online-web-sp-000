@@ -76,6 +76,6 @@ class TicTacToe
   end
 
   def play
-    user_input = gets.strip
+    turn
   end
 end
