@@ -76,5 +76,6 @@ class TicTacToe
   end
 
   def play
+    puts "Please select a position 1-9"
   end
 end
