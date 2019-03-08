@@ -77,6 +77,8 @@ class TicTacToe
 
   def play
     turn
-    over?
+    while !over
+      turn
+    end
   end
 end
